@@ -1,4 +1,4 @@
-const Producto = require('../../../database/models/ProductModel');
+const Producto = require('../../../database/models/productModel');
 const catchAsync = require('../../../utils/catchAsync');
 const AppError = require('../../../utils/appError');
 
