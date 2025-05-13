@@ -1,7 +1,6 @@
 const sequelize = require('../config');
-const Producto = require('../models/ProductModel');
 const { faker } = require('@faker-js/faker');
-
+const Producto = require('../models/productModel');
 const runSeed = async () => {
   try {
     await sequelize.sync({ force: true });
